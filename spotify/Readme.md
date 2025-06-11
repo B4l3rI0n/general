@@ -5,8 +5,11 @@ Includes a draggable floating countdown box so you can see how much time is left
 
 ## 🟢 Features
 ⏰ Prompt to set your desired timer (in minutes).
+
 ✅ Floating countdown box shown in the top-right corner.
+
 🖱️ You can drag the box anywhere on the page.
+
 ⏸️ Automatically pauses playback when time is up (with a spacebar fallback just in case).
 
 ## 🚀 How to Use
