@@ -15,7 +15,7 @@ A simple Chrome extension to add draggable, resizable blur boxes on any webpage 
 
 ## ⚙️ How to Use
 
-1. Clone or download this repo
+1. Clone or download this [directory](https://github.com/B4l3rI0n/general/blob/main/Blur%20Overlay/Blur%20Overlay.zip)
 2. Go to `chrome://extensions/`
 3. Enable **Developer mode**
 4. Click **Load unpacked** and select the project folder
