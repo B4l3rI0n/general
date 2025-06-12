@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blur Overlays</title>
+  <style>
+    body {
+      width: 220px;
+      font-family: sans-serif;
+      padding: 10px;
+      background: #222;
+      color: white;
+    }
+    button, input[type="range"] {
+      width: 100%;
+      margin: 6px 0;
+      padding: 6px;
+      font-size: 14px;
+      border: none;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+    button {
+      background: #1db954;
+      color: white;
+      cursor: pointer;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+    input[type="range"] {
+      background: #444;
+    }
+  </style>
+</head>
+<body>
+  <button id="toggle-blur">Hide Blur</button>
+  <button id="add-overlay">Add Overlay</button>
+  <label for="blur-slider">Blur Intensity</label>
+  <input type="range" id="blur-slider" min="0" max="30" value="8">
+
+  <script src="popup.js"></script>
+</body>
+</html>
