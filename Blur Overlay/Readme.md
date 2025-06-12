@@ -1,6 +1,6 @@
 # 🟦 Blur Overlay Extension
-
 A simple Chrome extension to add draggable, resizable blur boxes on any webpage — perfect for hiding private stuff during screenshots or streaming.
+![image](https://github.com/user-attachments/assets/14ff6176-1f45-4a0a-97fd-5cf41ea935f4)
 
 ## 💡 Features
 
@@ -9,6 +9,9 @@ A simple Chrome extension to add draggable, resizable blur boxes on any webpage 
 - 🎛️ Control blur intensity with a slider
 - 🎹 Toggle visibility with `Shift + B`
 - 💾 Persistent until you reload the page
+  
+![image](https://github.com/user-attachments/assets/b1fded7c-34e9-49f2-a689-c0acd1a66aaa)
+
 
 ## ⚙️ How to Use
 
