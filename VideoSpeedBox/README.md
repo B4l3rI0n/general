@@ -23,6 +23,16 @@
 
 ## 🧩 How to Use
 
+### as extension
+
+1. Clone or download this [directory](https://github.com/B4l3rI0n/general/blob/main/VideoSpeedBox/video-speed-controller.zip)
+2. Extract it
+3. Go to chrome://extensions/
+4. Enable Developer mode
+5. Click Load unpacked and select the project folder
+6. Click the extension icon in the toolbar
+7. Click the icon and then use the Slider or any feature of the speed controller 
+
 ### 🛠️ From the Developer console
 
 1. Open the website with a video.
