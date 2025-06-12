@@ -161,7 +161,16 @@
     document.querySelectorAll("video").forEach(v => v.playbackRate = parseFloat(slider.value));
   }).observe(document.body, { childList: true, subtree: true });
 
-  // Save original display styles
+  document.addEventListener("keydown", e => {
+    if (["INPUT", "TEXTAREA"].includes(document.activeElement.tagName)) return;
+  
+    if (e.key === "+" || e.key === "=") slider.stepUp();
+    if (e.key === "-" || e.key === "_") slider.stepDown();
+    if (e.key === "s") floatToggle.click();
+    updateSpeed(slider.value);
+  });
+  
+  
   const originalStyles = new Map();
   [slider, display, presetContainer, autoWrapper].forEach(el => {
     originalStyles.set(el, getComputedStyle(el).display);
